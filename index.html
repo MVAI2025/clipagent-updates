@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClipAgent Updates</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d18;
+      --panel: #111525;
+      --text: #edf2ff;
+      --muted: #a3acc2;
+      --accent: #59caff;
+      --accent-2: #ff6f91;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    body {
+      margin: 0;
+      padding: 32px;
+      background:
+        radial-gradient(circle at top left, rgba(89, 202, 255, 0.18), transparent 34%),
+        radial-gradient(circle at top right, rgba(255, 111, 145, 0.16), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      font: 15px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: color-mix(in srgb, var(--panel) 94%, black);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    }
+    h1, h2 { margin: 0 0 12px; line-height: 1.1; }
+    h1 { font-size: 34px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 20px; }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .card {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.02);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">ClipAgent</span>
+    <h1>Direct Download Updates</h1>
+    <p>This site hosts the public macOS download, release notes, checksum, and Sparkle feed for ClipAgent.</p>
+    <div class="card">
+      <h2>Latest Build</h2>
+      <ul>
+        <li><a href="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.9/ClipAgent-v7.8.9-mac.dmg">Download installer (.dmg)</a></li>
+        <li><a href="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.9/ClipAgent-v7.8.9-mac.zip">Download updater archive (.zip)</a></li>
+        <li><a href="./ClipAgent-v7.8.9-mac.zip.sha256">SHA-256 checksum</a></li>
+        <li><a href="./ClipAgent-v7.8.9-mac.html">Release notes</a></li>
+        <li><a href="./appcast.xml">Sparkle appcast</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
