@@ -10,17 +10,7 @@
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <sparkle:releaseNotesLink>https://mvai2025.github.io/clipagent-updates/ClipAgent-v7.8.9-mac.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.9/ClipAgent-v7.8.9-mac.zip" length="982453471" type="application/octet-stream" sparkle:edSignature="6mzbq7KokoqAn5mhkSt8m+gm7M2JCLwa/DWMAdQuuCXyxO4Pfcs+VLpWNr92CXJ5nCsHh9kwmSuDGE9jCjCDAw=="/>
-        </item>
-        <item>
-            <title>7.8.8</title>
-            <pubDate>Tue, 14 Apr 2026 14:28:22 -0700</pubDate>
-            <sparkle:version>7.8.8</sparkle:version>
-            <sparkle:shortVersionString>7.8.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://mvai2025.github.io/clipagent-updates/ClipAgent-v7.8.8-mac.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.9/ClipAgent-v7.8.8-mac.zip" length="998726557" type="application/octet-stream" sparkle:edSignature="9HAr6ZVyM38alPmIJ6YM4qVYS1SQ0Mgeyz8mViZoV9jvqcLvZ+JUQYYqMNVJPjDrwYiPXoVsEO7kSHziRsJqBg=="/>
+            <enclosure url="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.9/ClipAgent-v7.8.9-mac.zip" length="982453471" type="application/octet-stream" sparkle:edSignature="LWB37fuZmbhJPUxO5rB0JRoCbaPUm9kijrwMOY53KioEoyprePBZuBsNsS6CfW31djcsQ1+A6uB4zljPPlDkDg=="/>
         </item>
     </channel>
 </rss>
