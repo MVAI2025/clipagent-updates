@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ClipAgent 7.8.18</title>
+  </head>
+  <body>
+    <h1>ClipAgent 7.8.18</h1>
+    <ul>
+      <li>Updated yt-dlp and excluded YouTube's retired Android VR player client to prevent Preview clips from failing with HTTP 403.</li>
+      <li>Preview and CSV jobs now report <strong>Failed</strong> or <strong>Partial download</strong> when playable clips were not created, instead of treating an error manifest as a completed video.</li>
+      <li><strong>Find download</strong> is only offered when a playable media file exists, with clearer error guidance available directly in Job Tracking.</li>
+      <li>Public YouTube downloads no longer attach members-only browser cookies unless the user explicitly enables members-only access.</li>
+    </ul>
+  </body>
+</html>
