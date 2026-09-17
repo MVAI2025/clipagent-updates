@@ -3,14 +3,14 @@
     <channel>
         <title>ClipAgent</title>
         <item>
-            <title>7.8.18</title>
-            <pubDate>Thu, 27 Aug 2026 13:57:53 -0700</pubDate>
-            <sparkle:version>7.8.18</sparkle:version>
-            <sparkle:shortVersionString>7.8.18</sparkle:shortVersionString>
+            <title>7.8.19</title>
+            <pubDate>Wed, 16 Sep 2026 17:54:26 -0700</pubDate>
+            <sparkle:version>7.8.19</sparkle:version>
+            <sparkle:shortVersionString>7.8.19</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://mvai2025.github.io/clipagent-updates/ClipAgent-v7.8.18-mac.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.18/ClipAgent-v7.8.18-mac.zip" length="983440984" type="application/octet-stream" sparkle:edSignature="VzkdhAEKyTMKGGBX7E4fah1p+G9IRltskvRD0iweHTYqfT4zSL+74yUgv5M8lnDdVKc8qJ0x8pyJHCTPbkX9Ag=="/>
+            <sparkle:releaseNotesLink>https://mvai2025.github.io/clipagent-updates/ClipAgent-v7.8.19-mac.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/MVAI2025/clipagent-updates/releases/download/v7.8.19/ClipAgent-v7.8.19-mac.zip" length="983455638" type="application/octet-stream" sparkle:edSignature="BlCDnm1shZPBPS7JRFqKmXlEkJhM+xvaa2rIMTYYQA0T4bcqzJ3nVN3cx0M8uwT2mGo3goljf9sa9tWCoXCgAg=="/>
         </item>
     </channel>
 </rss>

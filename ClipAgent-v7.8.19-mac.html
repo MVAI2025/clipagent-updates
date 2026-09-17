@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ClipAgent 7.8.19</title>
+  </head>
+  <body>
+    <h1>ClipAgent 7.8.19</h1>
+    <ul>
+      <li>Prevents the desktop app from connecting to an older ClipAgent backend left on the configured port.</li>
+      <li>Verifies that the frontend and backend versions match before opening the app, and automatically selects a free local port when necessary.</li>
+      <li>Keeps YouTube's failing Android VR player client disabled while bundling the current stable yt-dlp, EJS, and Deno runtime.</li>
+      <li>Reports jobs containing only an incomplete <code>.part</code> file as failed; <strong>Partial download</strong> now requires a media file that ffprobe can open.</li>
+      <li>Adds the ClipAgent and yt-dlp versions to job logs for faster support diagnosis.</li>
+    </ul>
+  </body>
+</html>
